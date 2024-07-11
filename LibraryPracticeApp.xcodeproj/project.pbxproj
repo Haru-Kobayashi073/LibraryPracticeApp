@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454E7EA67CC3F10E75085CC5 /* Pods_LibraryPracticeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7435ED8F226C1432D4A1F1DC /* Pods_LibraryPracticeApp.framework */; };
 		D31524832C3F77BA000F54CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31524822C3F77BA000F54CD /* AppDelegate.swift */; };
 		D31524852C3F77BA000F54CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31524842C3F77BA000F54CD /* SceneDelegate.swift */; };
 		D31524872C3F77BA000F54CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31524862C3F77BA000F54CD /* ViewController.swift */; };
 		D315248A2C3F77BA000F54CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D31524892C3F77BA000F54CD /* Base */; };
 		D315248C2C3F77BC000F54CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D315248B2C3F77BC000F54CD /* Assets.xcassets */; };
 		D315248F2C3F77BC000F54CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D315248E2C3F77BC000F54CD /* Base */; };
+		D315249D2C3F7CEB000F54CD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D315249C2C3F7CEB000F54CD /* SnapKit */; };
+		D31524A22C3F8307000F54CD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31524A12C3F8307000F54CD /* SecondViewController.swift */; };
+		D31524A52C3F93A0000F54CD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D31524A42C3F93A0000F54CD /* Lottie */; };
+		D31524A72C3F93FE000F54CD /* 32921-volumn-from-mute-to-maximum.json in Resources */ = {isa = PBXBuildFile; fileRef = D31524A62C3F93FE000F54CD /* 32921-volumn-from-mute-to-maximum.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7435ED8F226C1432D4A1F1DC /* Pods_LibraryPracticeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryPracticeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D52E145A1FF5FBA9557B3BC /* Pods-LibraryPracticeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryPracticeApp.debug.xcconfig"; path = "Target Support Files/Pods-LibraryPracticeApp/Pods-LibraryPracticeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D315247F2C3F77BA000F54CD /* LibraryPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31524822C3F77BA000F54CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D31524842C3F77BA000F54CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		D315248B2C3F77BC000F54CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D315248E2C3F77BC000F54CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D31524902C3F77BC000F54CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31524A12C3F8307000F54CD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D31524A62C3F93FE000F54CD /* 32921-volumn-from-mute-to-maximum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32921-volumn-from-mute-to-maximum.json"; sourceTree = "<group>"; };
+		D600BC90FC5EB9DD75F7A235 /* Pods-LibraryPracticeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryPracticeApp.release.xcconfig"; path = "Target Support Files/Pods-LibraryPracticeApp/Pods-LibraryPracticeApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D315249D2C3F7CEB000F54CD /* SnapKit in Frameworks */,
+				D31524A52C3F93A0000F54CD /* Lottie in Frameworks */,
+				454E7EA67CC3F10E75085CC5 /* Pods_LibraryPracticeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270A6E5631F4E5EEDDDBB5FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D52E145A1FF5FBA9557B3BC /* Pods-LibraryPracticeApp.debug.xcconfig */,
+				D600BC90FC5EB9DD75F7A235 /* Pods-LibraryPracticeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D31524762C3F77BA000F54CD = {
 			isa = PBXGroup;
 			children = (
 				D31524812C3F77BA000F54CD /* LibraryPracticeApp */,
 				D31524802C3F77BA000F54CD /* Products */,
+				270A6E5631F4E5EEDDDBB5FB /* Pods */,
+				E9B0216FA908284C6315CD4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +80,7 @@
 		D31524812C3F77BA000F54CD /* LibraryPracticeApp */ = {
 			isa = PBXGroup;
 			children = (
+				D31524A62C3F93FE000F54CD /* 32921-volumn-from-mute-to-maximum.json */,
 				D31524822C3F77BA000F54CD /* AppDelegate.swift */,
 				D31524842C3F77BA000F54CD /* SceneDelegate.swift */,
 				D31524862C3F77BA000F54CD /* ViewController.swift */,
@@ -63,8 +88,17 @@
 				D315248B2C3F77BC000F54CD /* Assets.xcassets */,
 				D315248D2C3F77BC000F54CD /* LaunchScreen.storyboard */,
 				D31524902C3F77BC000F54CD /* Info.plist */,
+				D31524A12C3F8307000F54CD /* SecondViewController.swift */,
 			);
 			path = LibraryPracticeApp;
+			sourceTree = "<group>";
+		};
+		E9B0216FA908284C6315CD4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7435ED8F226C1432D4A1F1DC /* Pods_LibraryPracticeApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +108,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D31524932C3F77BC000F54CD /* Build configuration list for PBXNativeTarget "LibraryPracticeApp" */;
 			buildPhases = (
+				1205D53CD66B326520923FFB /* [CP] Check Pods Manifest.lock */,
 				D315247B2C3F77BA000F54CD /* Sources */,
 				D315247C2C3F77BA000F54CD /* Frameworks */,
 				D315247D2C3F77BA000F54CD /* Resources */,
+				307DE2574DB454947F1236E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LibraryPracticeApp;
+			packageProductDependencies = (
+				D315249C2C3F7CEB000F54CD /* SnapKit */,
+				D31524A42C3F93A0000F54CD /* Lottie */,
+			);
 			productName = LibraryPracticeApp;
 			productReference = D315247F2C3F77BA000F54CD /* LibraryPracticeApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,10 @@
 				Base,
 			);
 			mainGroup = D31524762C3F77BA000F54CD;
+			packageReferences = (
+				D315249B2C3F7CEB000F54CD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D31524A32C3F93A0000F54CD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = D31524802C3F77BA000F54CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D315248C2C3F77BC000F54CD /* Assets.xcassets in Resources */,
+				D31524A72C3F93FE000F54CD /* 32921-volumn-from-mute-to-maximum.json in Resources */,
 				D315248F2C3F77BC000F54CD /* Base in Resources */,
 				D315248A2C3F77BA000F54CD /* Base in Resources */,
 			);
@@ -133,11 +178,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1205D53CD66B326520923FFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryPracticeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		307DE2574DB454947F1236E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibraryPracticeApp/Pods-LibraryPracticeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibraryPracticeApp/Pods-LibraryPracticeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LibraryPracticeApp/Pods-LibraryPracticeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D315247B2C3F77BA000F54CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31524A22C3F8307000F54CD /* SecondViewController.swift in Sources */,
 				D31524872C3F77BA000F54CD /* ViewController.swift in Sources */,
 				D31524832C3F77BA000F54CD /* AppDelegate.swift in Sources */,
 				D31524852C3F77BA000F54CD /* SceneDelegate.swift in Sources */,
@@ -287,17 +375,18 @@
 		};
 		D31524942C3F77BC000F54CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D52E145A1FF5FBA9557B3BC /* Pods-LibraryPracticeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 668867388C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LibraryPracticeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +404,18 @@
 		};
 		D31524952C3F77BC000F54CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D600BC90FC5EB9DD75F7A235 /* Pods-LibraryPracticeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 668867388C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LibraryPracticeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +453,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D315249B2C3F7CEB000F54CD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		D31524A32C3F93A0000F54CD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D315249C2C3F7CEB000F54CD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D315249B2C3F7CEB000F54CD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D31524A42C3F93A0000F54CD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31524A32C3F93A0000F54CD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D31524772C3F77BA000F54CD /* Project object */;
 }
